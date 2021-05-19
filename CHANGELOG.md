@@ -3,19 +3,25 @@
 # Changelog
 
 - [Changelog](#changelog)
-  - [3.10.2](#3102)
+  - [Next Version](#next-version)
     - [New Features](#new-features)
     - [Bug Fixes](#bug-fixes)
-    - [Development](#development)
-  - [3.10.1](#3101)
-    - [Bug Fixes](#bug-fixes-1)
     - [Documentation](#documentation)
-    - [Development](#development-1)
-  - [3.10.0](#3100)
+    - [Development](#development)
+  - [3.10.2](#3102)
     - [New Features](#new-features-1)
-    - [Bug Fixes](#bug-fixes-2)
+    - [Bug Fixes](#bug-fixes-1)
+    - [Development](#development-1)
     - [Documentation](#documentation-1)
+  - [3.10.1](#3101)
+    - [Bug Fixes](#bug-fixes-2)
+    - [Documentation](#documentation-2)
     - [Development](#development-2)
+  - [3.10.0](#3100)
+    - [New Features](#new-features-2)
+    - [Bug Fixes](#bug-fixes-3)
+    - [Documentation](#documentation-3)
+    - [Development](#development-3)
   - [Previous versions](#previous-versions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -55,6 +61,26 @@ VS Code v0.00.0
 
 -->
 
+## Next Version
+
+VS Code v0.00.0
+
+### New Features
+
+- item
+
+### Bug Fixes
+
+- item
+
+### Documentation
+
+- item
+
+### Development
+
+- fix: use sufficient computational effort for password hash #3422 @jsjoeio
+
 ## 3.10.2
 
 VS Code v1.56.1
@@ -71,6 +97,10 @@ VS Code v1.56.1
 ### Development
 
 - fix(ci): update brew-bump.sh to update remote first #3438 @jsjoeio
+
+### Documentation
+
+- item
 
 ## 3.10.1
 
