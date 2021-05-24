@@ -26,7 +26,9 @@ main() {
   git merge upstream/master
 
   echo "Pushing changes to cdrci/homebrew-core fork on GitHub"
-  git push origin master
+  # Source: https://serverfault.com/a/912788
+  echo '#!/bin/sh\nexec echo "$CDR_CI_GIT_PASSWORD"' >$HOME/.git-askpass.sh
+  GIT_ASKPASS=$HOME/.git-askpass git push https://cdrci@github.com/cdrci/homebrew-core.git --all
 
   # Find the docs for bump-formula-pr here
   # https://github.com/Homebrew/brew/blob/master/Library/Homebrew/dev-cmd/bump-formula-pr.rb#L18
